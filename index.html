@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HOUSE OF MATHEMATICS offers clear mathematics lessons, practice questions, notes and tuition for Classes 6–10.">
+  <title>HOUSE OF MATHEMATICS | Learn Maths with Confidence</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="House of Mathematics home">
+      <span class="brand-icon">∑</span>
+      <span>HOUSE OF <strong>MATHEMATICS</strong><small>Learn • Practise • Excel</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav id="navMenu">
+      <a href="#home">Home</a><a href="#courses">Classes</a><a href="#videos">Video lessons</a>
+      <a href="#practice">Practice</a><a href="#resources">Notes</a><a class="nav-cta" href="#register">Register</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <span class="eyebrow">MATHEMATICS FOR CLASSES 6–10</span>
+        <h1>Make maths your <span>strongest subject.</span></h1>
+        <p>Build confidence with step-by-step explanations, guided practice, useful notes and supportive teaching—in person or online.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#courses">Explore classes <span>→</span></a>
+          <a class="button button-light" href="#register">Join the learning community</a>
+        </div>
+        <div class="trust-row"><span>✓ Concept-based teaching</span><span>✓ Practice that builds confidence</span></div>
+      </div>
+      <div class="math-art" aria-label="Mathematics illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="math-card card-one"><small>ALGEBRA</small><strong>(a + b)²</strong><span>= a² + 2ab + b²</span></div>
+        <div class="math-card card-two"><small>GEOMETRY</small><div class="triangle">△</div><span>Explore shapes</span></div>
+        <div class="math-card card-three"><small>NUMBER SKILLS</small><strong>¾ + ½</strong><span>Learn step by step</span></div>
+        <div class="hero-stamp">Think<br>logically.<br><b>Grow daily.</b></div>
+      </div>
+    </section>
+
+    <section class="section" id="courses">
+      <div class="section-heading"><span class="eyebrow">YOUR LEARNING PATH</span><h2>Strong foundations. Better results.</h2><p>Lessons designed for middle and secondary school mathematics.</p></div>
+      <div class="course-grid">
+        <article class="course-card"><div class="course-icon lavender">06</div><h3>Class 6 Mathematics</h3><p>Numbers, factors, fractions, decimals, basic geometry and introductory algebra.</p><a href="#register">Ask about Class 6 →</a></article>
+        <article class="course-card"><div class="course-icon mint">07</div><h3>Class 7 Mathematics</h3><p>Integers, rational numbers, equations, percentages, lines, angles and more.</p><a href="#register">Ask about Class 7 →</a></article>
+        <article class="course-card"><div class="course-icon peach">08</div><h3>Class 8 Mathematics</h3><p>Linear equations, squares, cubes, exponents, mensuration and graphs.</p><a href="#register">Ask about Class 8 →</a></article>
+        <article class="course-card"><div class="course-icon sky">09</div><h3>Class 9 Mathematics</h3><p>Polynomials, coordinate geometry, triangles, circles, statistics and more.</p><a href="#register">Ask about Class 9 →</a></article>
+        <article class="course-card"><div class="course-icon butter">10</div><h3>Class 10 Mathematics</h3><p>Board-exam preparation, algebra, geometry, trigonometry and revision.</p><a href="#register">Ask about Class 10 →</a></article>
+      </div>
+    </section>
+
+    <section class="split-section" id="videos">
+      <div class="video-illustration"><div class="video-window"><div class="video-top"><i></i><i></i><i></i><span>LESSON PREVIEW</span></div><div class="video-content"><div class="play-button">▶</div><strong>Learn one step at a time</strong><span>Concept • Example • Practice</span></div></div><div class="floating-equation">x + 5 = 12<br><b>x = 7</b></div></div>
+      <div class="split-copy"><span class="eyebrow">WATCH & UNDERSTAND</span><h2>Video lessons that make concepts click.</h2><p>Watch explanations at your own pace, pause to work through examples, and revisit tricky topics before tests.</p><ul class="check-list"><li>Short, topic-focused lessons</li><li>Worked examples with clear steps</li><li>Useful for revision before exams</li></ul><a class="button button-primary" href="#register">Get lesson updates →</a><p class="small-note">Video links will be added here by the teacher. The sample site does not host videos yet.</p></div>
+    </section>
+
+    <section class="practice-section" id="practice">
+      <div class="section-heading"><span class="eyebrow">TRY A QUESTION</span><h2>Practice makes progress.</h2><p>Try this sample question and check your answer instantly.</p></div>
+      <div class="quiz-card">
+        <div class="quiz-number">SAMPLE QUESTION · CLASS 7</div><h3>Solve the equation: 3x + 5 = 20</h3>
+        <div class="answer-options" id="answerOptions">
+          <button data-answer="5">x = 5</button><button data-answer="15">x = 15</button><button data-answer="25">x = 25</button><button data-answer="3">x = 3</button>
+        </div>
+        <div class="quiz-feedback" id="quizFeedback" role="status" aria-live="polite">Choose an answer to see your result.</div>
+        <button class="text-button" id="showSolution">Show worked solution</button>
+        <div class="solution" id="solution" hidden>Subtract 5 from both sides: 3x = 15. Divide both sides by 3: <strong>x = 5</strong>.</div>
+      </div>
+    </section>
+
+    <section class="section resources-section" id="resources">
+      <div class="section-heading"><span class="eyebrow">LEARNING RESOURCES</span><h2>Notes you can revisit anytime.</h2><p>Downloadable notes and worksheets can be added as the course library grows.</p></div>
+      <div class="resource-grid">
+        <article class="resource-card"><div class="resource-symbol">PDF</div><div><h3>Formula sheet</h3><p>A starter resource for important algebra and geometry formulas.</p><a href="assets/sample-formula-sheet.pdf" download>Download sample PDF ↗</a></div></article>
+        <article class="resource-card"><div class="resource-symbol worksheet">✎</div><div><h3>Practice worksheet</h3><p>Try a few starter questions and review the answers.</p><a href="assets/sample-worksheet.txt" download>Download sample worksheet ↗</a></div></article>
+      </div>
+      <p class="small-note centered">Replace these sample resources with the teacher's own notes and syllabus-specific worksheets before launch.</p>
+    </section>
+
+    <section class="live-section">
+      <div class="live-badge"><span></span> LIVE LEARNING</div><h2>Learn together, online or in person.</h2><p>Ask about live online lessons, doubt-clearing sessions and in-person tuition availability.</p><a class="button button-white" href="#register">Enquire about classes →</a>
+    </section>
+
+    <section class="register-section" id="register">
+      <div class="register-copy"><span class="eyebrow">TAKE THE NEXT STEP</span><h2>Start your maths journey.</h2><p>Share your details and the class you are interested in. The form below creates an email enquiry on your device; it does not store student details on a server.</p><div class="contact-note"><span>✉</span><div><strong>Teacher contact</strong><p>Update the email address in the website code before publishing.</p></div></div></div>
+      <form class="register-form" id="registrationForm">
+        <label for="studentName">Student name</label><input id="studentName" name="studentName" required maxlength="100" placeholder="Enter student name">
+        <label for="parentEmail">Parent/guardian email</label><input id="parentEmail" name="parentEmail" type="email" required maxlength="150" placeholder="name@example.com">
+        <div class="form-row"><div><label for="classLevel">Class</label><select id="classLevel" name="classLevel" required><option value="">Choose class</option><option>Class 6</option><option>Class 7</option><option>Class 8</option><option>Class 9</option><option>Class 10</option></select></div><div><label for="learningMode">Preferred mode</label><select id="learningMode" name="learningMode" required><option value="">Choose mode</option><option>Online</option><option>In person</option><option>Both</option></select></div></div>
+        <label for="message">What would you like help with? (optional)</label><textarea id="message" name="message" rows="3" maxlength="1000" placeholder="Topics, goals or questions"></textarea>
+        <button class="button button-primary submit-button" type="submit">Prepare enquiry →</button><p class="form-status" id="formStatus" role="status" aria-live="polite">Your email app will open with the enquiry ready to send.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer><a class="brand footer-brand" href="#home"><span class="brand-icon">∑</span><span>HOUSE OF <strong>MATHEMATICS</strong><small>Learn • Practise • Excel</small></span></a><p>Helping students in Classes 6–10 build mathematical confidence.</p><div class="footer-links"><a href="#courses">Classes</a><a href="#practice">Practice</a><a href="#resources">Notes</a><a href="#register">Contact</a></div><small>© <span id="year"></span> HOUSE OF MATHEMATICS. Update this template with your own teaching details.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
